@@ -1,0 +1,6 @@
+﻿@model ImageUploadModel
+
+<form asp-action="Upload" enctype="multipart/form-data" method="post">
+    <input type="file" asp-for="ImageFile" />
+    <button type="submit">Upload and Improve</button>
+</form>
